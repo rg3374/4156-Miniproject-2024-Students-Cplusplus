@@ -1,0 +1,21 @@
+Bugs found in Unit Test
+------------------------
+1. Department.cpp: getDepartmentChair() returns "departmentChair". 
+   Fixed to return departmentChair
+
+2. Course.cpp: No get function for enrolledStudentCount
+   Added Course::getEnrolledStudentCount()
+
+3. Course::enrollStudent() doesn't check against enrollmentCapacity
+   Check added. Return true or false accordingly
+
+4. Course::dropStudent() doesn't check against zero
+   Check added. Return true or false accordingly
+
+5. In Course constructor enrolledStudentCount is initialized as 500. It should be zero. Fixed.
+
+6. Course::getCourseTimeSlot() returned instructorName. Fixed.
+
+7. Course::getInstructorName() returned courseTimeSlot. Fixed.
+
+8. Course::isCourseFull() logic is wrong. Should be return enrolledStudentCount > enrollmentCapacity; Fixed.

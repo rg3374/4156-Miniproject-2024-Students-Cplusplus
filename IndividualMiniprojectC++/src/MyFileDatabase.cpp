@@ -1,3 +1,7 @@
+/**
+ * Copyright 2024 <Columbia University>
+ */
+
 #include "MyFileDatabase.h"
 #include <iostream>
 #include <fstream>

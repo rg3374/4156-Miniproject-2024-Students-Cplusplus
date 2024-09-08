@@ -1,3 +1,7 @@
+/**
+ * Copyright 2024 <Columbia University>
+ */
+
 #include "MyApp.h"
 #include <iostream>
 

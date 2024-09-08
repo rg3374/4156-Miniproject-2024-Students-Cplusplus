@@ -1,11 +1,17 @@
-#include "RouteController.h"
-#include "Globals.h"
-#include "MyFileDatabase.h"
-#include "crow.h"
+/**
+ * Copyright 2024 <Columbia University>
+ */
+
 #include <map>
 #include <string>
 #include <exception>
 #include <iostream>
+
+#include "../external_libraries/Crow-1.2.0-Darwin/include/crow.h"
+
+#include "RouteController.h"
+#include "Globals.h"
+#include "MyFileDatabase.h"
 
 // Utility function to handle exceptions
 crow::response handleException(const std::exception& e) {

@@ -1,3 +1,7 @@
+/**
+ * Copyright 2024 <Columbia University>
+ */
+
 #include "Department.h"
 #include "Course.h"
 #include <map>
@@ -35,7 +39,7 @@ int Department::getNumberOfMajors() const {
  * @return The name of the department chair.
  */
 std::string Department::getDepartmentChair() const {
-    return "departmentChair"; 
+    return departmentChair; 
 }
 
 /**
