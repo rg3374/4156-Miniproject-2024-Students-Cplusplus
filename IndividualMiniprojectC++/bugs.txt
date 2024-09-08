@@ -1,3 +1,27 @@
+Bugs found in Code Clean up
+---------------------------
+1. ccplint reported that none of the cpp files in src and test has Copyright.
+   <Copyright 2024 <Columbia University> added to all cpp files in src and test.
+
+
+
+Bugs found in Static Analysis
+-----------------------------
+   2 errors were found:
+       a. ../external_libraries/Crow-1.2.0-Darwin/include/crow/routing.h:1798:17: error: Rethrowing current exception with 'throw;', it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object [rethrowNoCurrentException]
+                throw;
+                ^
+       b. ../external_libraries/Crow-1.2.0-Darwin/include/crow/logging.h:78:25: error: Uninitialized variable: &my_tm [uninitvar]
+            localtime_s(&my_tm, &t);
+    But these are both in external Crow library. So not fixed.
+
+    Message in cppcheck.log:
+    "Critical errors
+     ---------------
+     No critical errors, all files were checked."
+
+
+
 Bugs found in Unit Test
 ------------------------
 1. Department.cpp: getDepartmentChair() returns "departmentChair". 
