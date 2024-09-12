@@ -37,6 +37,11 @@ TEST_F(DepartmentUnitTests, ToStringTest) {
     ASSERT_EQ(expectedResult, testDepartment->display());
 }
 
+TEST_F(DepartmentUnitTests, DefaultDepartmentTest) {
+    Department* newDepartment = new Department();
+    EXPECT_EQ(0, newDepartment->getNumberOfMajors());
+}
+
 TEST_F(DepartmentUnitTests, GetNumberOfMajorsTest) {
     EXPECT_EQ(205, testDepartment->getNumberOfMajors());
 }

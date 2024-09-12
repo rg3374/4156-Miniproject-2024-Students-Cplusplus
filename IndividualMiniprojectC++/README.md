@@ -1,27 +1,36 @@
 Commands run for:
 
 1. Building executable: 
-    cmake .. 
-    make 
+   In build:
+   > cmake .. 
+   > make 
 
 2. Style checking
-   make cpplint 
+   In build:
+   > make cpplint 
 
 3. Static analysis 
-   cd src
-   cppcheck . --check-level=exhaustive --force --checkers-report=cppcheck.log
+   > cd src
+   > cppcheck . --check-level=exhaustive --force --checkers-report=cppcheck.log
 
     cppcheck.log checked in.
 
 4. Running Test suite
-   (make clean) - optional - if changes madde
-   make 
-   make test
+   > (make clean) - optional - only if changes made
+   > make 
+   > make test
+
+5. Code Coverage
+   In build:
+   > cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS_DEBUG="-g -fprofile-arcs -ftest-coverage" \\n    -DCMAKE_C_FLAGS_DEBUG="-g -fprofile-arcs -ftest-coverage"
+   > make -j
+   > ctest -T Test -T Coverage
 
 5. Documentation
-   doxygen -g - to create Doxyfile
+   To create Doxyfile
+   > doxygen -g
    Edit Doxyfile
-   doxygen
-   cd latex; make
+   > doxygen
+   > cd latex; make
 
    The refman.pdf file generated in the latex directory is checked in.
