@@ -25,6 +25,10 @@ TEST_F(CourseUnitTests, ToStringTest) {
     ASSERT_EQ(expectedResult, testCourse->display());
 }
 
+TEST_F(CourseUnitTests, DefaultEnrollStudentTest) {
+    EXPECT_EQ(0, testCourse->getEnrolledStudentCount());
+}
+
 TEST_F(CourseUnitTests, EnrollStudentTest) {
     testCourse->enrollStudent();
     testCourse->enrollStudent();
@@ -53,6 +57,16 @@ TEST_F(CourseUnitTests, GetCourseTimeSlotTest) {
 TEST_F(CourseUnitTests, SetEnrolledStudentCountTest) {
     testCourse->setEnrolledStudentCount(23);
     EXPECT_EQ(23, testCourse->getEnrolledStudentCount());
+}
+
+TEST_F(CourseUnitTests, EnrolledStudentUpperLimitTest) {
+    testCourse->setEnrolledStudentCount(250);
+    EXPECT_FALSE(testCourse->enrollStudent());
+}
+
+TEST_F(CourseUnitTests, EnrolledStudentLowerLimitTest) {
+    testCourse->setEnrolledStudentCount(0);
+    EXPECT_FALSE(testCourse->dropStudent());
 }
 
 TEST_F(CourseUnitTests, ReassignLocationTest) {
