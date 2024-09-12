@@ -1,0 +1,26 @@
+Resources used in Individual Mini Project
+-----------------------------------------
+
+1. Cppcheck for static analysis
+https://cppcheck.sourceforge.io/manual.pdf
+
+2. Coverage testing with CMake and GCov 
+https://clehaxze.tw/gemlog/2022/06-28-coverage-testing-with-cmake-and-gcov.gmi
+
+3. Using Doxygen: Quick	Guide
+https://pages.cs.wisc.edu/~jignesh/cs564/notes/Doxygen.pdf
+
+4. Doxygen manual
+https://www.doxygen.nl/manual/docblocks.html#cppblock
+
+5. GoogleTest User’s Guide
+https://google.github.io/googletest/
+
+6. Google C++ Style Guide
+https://google.github.io/styleguide/cppguide.html#Self_contained_Headers
+
+7. Install cpplint
+https://formulae.brew.sh/formula/cpplint
+
+6. Fork a repository
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
