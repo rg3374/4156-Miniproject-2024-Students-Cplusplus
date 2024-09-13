@@ -98,12 +98,3 @@ else()
 endif()
     
 include(CTest)
-#set(CMAKE_MODULE_PATH ./build)
-#include(CodeCoverage.cmake)
-
-#SET(CMAKE_CXX_FLAGS "-g -O0 --coverage -fprofile-arcs -ftest-coverage")
-#SET(CMAKE_C_FLAGS "-g -O0 --coverage -fprofile-arcs -ftest-coverage")
-
-#setup_target_for_coverage(cover IndividualMiniprojectTests coverage)
-
-#target_link_libraries(IndividualMiniprojectTests gcov)
