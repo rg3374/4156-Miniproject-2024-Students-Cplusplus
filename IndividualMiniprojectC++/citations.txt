@@ -24,3 +24,6 @@ https://formulae.brew.sh/formula/cpplint
 
 6. Fork a repository
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+
+7. CMake exclude external directories for code coverage
+https://discourse.cmake.org/t/ctest-custom-coverage-exclude-is-not-work/10884

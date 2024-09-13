@@ -26,6 +26,12 @@ Commands run for:
    > make -j
    > ctest -T Test -T Coverage
 
+   Output:
+   	Covered LOC:         435
+	Not covered LOC:     363
+	Total LOC:           798
+	Percentage Coverage: 54.51%
+
 5. Documentation
    To create Doxyfile
    > doxygen -g
