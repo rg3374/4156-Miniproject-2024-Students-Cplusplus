@@ -1,0 +1,41 @@
+\begin{theindex}
+
+  \item {Course.cpp}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Department.cpp}, \hyperpage{3}
+
+  \indexspace
+
+  \item {globalDatabase}
+    \subitem {Globals.cpp}, \hyperpage{3}
+  \item {Globals.cpp}, \hyperpage{3}
+    \subitem {globalDatabase}, \hyperpage{3}
+
+  \indexspace
+
+  \item {handleException}
+    \subitem {RouteController.cpp}, \hyperpage{5}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{4}
+  \item {main.cpp}, \hyperpage{4}
+    \subitem {main}, \hyperpage{4}
+    \subitem {signalHandler}, \hyperpage{4}
+  \item {MyApp.cpp}, \hyperpage{4}
+  \item {MyFileDatabase.cpp}, \hyperpage{4}
+
+  \indexspace
+
+  \item {RouteController.cpp}, \hyperpage{5}
+    \subitem {handleException}, \hyperpage{5}
+
+  \indexspace
+
+  \item {signalHandler}
+    \subitem {main.cpp}, \hyperpage{4}
+
+\end{theindex}

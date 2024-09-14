@@ -1,0 +1,19 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}File Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}File List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Documentation}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Course.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Department.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Globals.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{3}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Variable Documentation}{3}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}globalDatabase}{3}{subsubsection.2.3.1.1}%
+\contentsline {section}{\numberline {2.4}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{4}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Function Documentation}{4}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}main()}{4}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}signalHandler()}{4}{subsubsection.2.4.1.2}%
+\contentsline {section}{\numberline {2.5}My\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{4}{section.2.5}%
+\contentsline {section}{\numberline {2.6}My\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{4}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Route\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{5}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Function Documentation}{5}{subsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.1.1}handleException()}{5}{subsubsection.2.7.1.1}%
+\contentsline {chapter}{Index}{7}{section*.4}%
