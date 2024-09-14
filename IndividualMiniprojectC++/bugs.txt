@@ -1,6 +1,7 @@
 Bugs found in Code Clean up
 ---------------------------
 1. ccplint reported that none of the cpp files in src and test has Copyright.
+   Errors fixed. 
    <Copyright 2024 <Columbia University> added to all cpp files in src and test.
 
 
@@ -15,7 +16,7 @@ Bugs found in Static Analysis
             localtime_s(&my_tm, &t);
     But these are both in external Crow library. So not fixed.
 
-    Message in cppcheck.log:
+    Final message in cppcheck.log:
     "Critical errors
      ---------------
      No critical errors, all files were checked."
@@ -25,7 +26,7 @@ Bugs found in Static Analysis
 Bugs found in Unit Test
 ------------------------
 1. Department.cpp: getDepartmentChair() returns "departmentChair". 
-   Fixed to return departmentChair
+   Fixed to return the value of departmentChair
 
 2. Course.cpp: No get function for enrolledStudentCount
    Added Course::getEnrolledStudentCount()
